@@ -16,7 +16,9 @@ Example is for weather icons from openweathermap.
 - If no folder is given, folder is current working directory
 - A given folder will be cwd/folder/name.jpg
 
+
     downloadImages(url, names, folder)
+
 
 - folder is same as above
 - names is an array of names
