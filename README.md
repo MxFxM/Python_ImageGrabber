@@ -6,7 +6,7 @@ Can also be used to save multiple images at once.
 
 Example is for weather icons from openweathermap.
 
-## Usage
+## Download a single file
 
     downloadImage(url, name, folder)
 
@@ -16,9 +16,9 @@ Example is for weather icons from openweathermap.
 - If no folder is given, folder is current working directory
 - A given folder will be cwd/folder/name.jpg
 
+## Download multiple files
 
     downloadImages(url, names, folder)
-
 
 - folder is same as above
 - names is an array of names
